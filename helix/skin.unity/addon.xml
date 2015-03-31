@@ -2,7 +2,7 @@
 
 <addon
   id="skin.unity"
-  version="0.2.0"
+  version="0.2.1"
   name="Unity"
   provider-name="Eddage">
   <requires>
@@ -20,6 +20,14 @@
     <summary lang="en_AU">A new skin for XBMC 13 Gotham by Eddage</summary>
     <summary lang="en_NZ">A new skin for XBMC 13 Gotham by Eddage</summary>
     <summary lang="en_US">A new skin for XBMC 13 Gotham by Eddage</summary>
+		<description lang="en">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_AU">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_NZ">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_US">Unity is an adaptation of Confluence based on a material design.</description>
+		<disclaimer lang="en">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_AU">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_NZ">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_US">More info on the skin can be found at the Kodi Forums.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
