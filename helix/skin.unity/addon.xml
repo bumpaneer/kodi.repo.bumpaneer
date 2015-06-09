@@ -2,9 +2,9 @@
 
 <addon
   id="skin.unity"
-  version="0.2.3"
+  version="0.2.4"
   name="Unity"
-  provider-name="Eddage">
+  provider-name="Eddage, Bumpaneer">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
   </requires>
