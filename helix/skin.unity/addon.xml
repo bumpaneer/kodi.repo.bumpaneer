@@ -2,11 +2,12 @@
 
 <addon
   id="skin.unity"
-  version="0.2.4"
+  version="0.2.5"
   name="Unity"
   provider-name="Eddage, Bumpaneer">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
