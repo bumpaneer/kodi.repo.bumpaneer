@@ -19,7 +19,7 @@ def del_rw(action, name, exc):
 if __name__ == '__main__':
 		if( not os.path.isdir('isengard\\working')):
 			os.mkdir('isengard\\working')
-		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "isengard\\working\\repo")
+		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "isengard\\working\\repo", branch='Isengard')
 		shutil.rmtree('isengard\\working\\repo\\.git', onerror=del_rw)
 		os.remove('isengard\\working\\repo\\.gitattributes')
 		os.remove('isengard\\working\\repo\\.gitignore')

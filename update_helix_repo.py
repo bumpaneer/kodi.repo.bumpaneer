@@ -19,7 +19,7 @@ def del_rw(action, name, exc):
 if __name__ == '__main__':
 		if( not os.path.isdir('helix\\working')):
 			os.mkdir('helix\\working')
-		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "helix\\working\\repo")
+		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "helix\\working\\repo", branch='Helix')
 		shutil.rmtree('helix\\working\\repo\\.git', onerror=del_rw)
 		os.remove('helix\\working\\repo\\.gitattributes')
 		os.remove('helix\\working\\repo\\.gitignore')
