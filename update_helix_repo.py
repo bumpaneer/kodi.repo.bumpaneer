@@ -40,6 +40,8 @@ if __name__ == '__main__':
 		if(os.path.exists('helix\\working\\repo\\changelog.txt')):
 			shutil.copy2('helix\\working\\repo\\changelog.txt', 'helix\\' + addonid + '\\changelog-' + addonversion + '.txt')
 		if(os.path.isdir('helix\\working\\repo\\_screenshots')):
+			if(os.path.exists('helix\\' + addonid + '\\screenshots.zip')):
+				os.remove('helix\\' + addonid + '\\screenshots.zip')
 			os.mkdir(newdir)
 			shutil.move('helix\\working\\repo\\_screenshots', newdir + '\\_screenshots')
 			os.chdir('helix\\working\\')

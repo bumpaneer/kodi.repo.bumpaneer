@@ -40,6 +40,8 @@ if __name__ == '__main__':
 		if(os.path.exists('isengard\\working\\repo\\changelog.txt')):
 			shutil.copy2('isengard\\working\\repo\\changelog.txt', 'isengard\\' + addonid + '\\changelog-' + addonversion + '.txt')
 		if(os.path.isdir('isengard\\working\\repo\\_screenshots')):
+			if(os.path.exists('isengard\\' + addonid + '\\screenshots.zip')):
+				os.remove('isengard\\' + addonid + '\\screenshots.zip')
 			os.mkdir(newdir)
 			shutil.move('isengard\\working\\repo\\_screenshots', newdir + '\\_screenshots')
 			os.chdir('isengard\\working\\')
