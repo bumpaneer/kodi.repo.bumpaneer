@@ -33,7 +33,7 @@
 
 <addon
   id="skin.unity"
-  version="0.2.7"
+  version="0.2.8"
   name="Unity"
   provider-name="Eddage, Bumpaneer">
   <requires>
