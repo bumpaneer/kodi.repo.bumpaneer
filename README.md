@@ -1,2 +1,2 @@
 # kodi.repo.bumpaneer
-Repository to distribute test versions of Neon for Kodi Media Center
+Repository to distribute test versions of Unity for Kodi Media Center
