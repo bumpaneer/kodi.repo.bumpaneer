@@ -19,7 +19,7 @@ def del_rw(action, name, exc):
 if __name__ == '__main__':
 		if( not os.path.isdir('jarvis\\working')):
 			os.mkdir('jarvis\\working')
-		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "jarvis\\working\\repo", branch='jarvis')
+		Repo.clone_from("git://github.com/bumpaneer/skin.unity.git", "jarvis\\working\\repo", branch='Jarvis')
 		shutil.rmtree('jarvis\\working\\repo\\.git', onerror=del_rw)
 		os.remove('jarvis\\working\\repo\\.gitattributes')
 		os.remove('jarvis\\working\\repo\\.gitignore')
