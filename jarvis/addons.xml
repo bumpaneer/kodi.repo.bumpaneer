@@ -2,7 +2,7 @@
 <addons>
 <addon id="kodi.repo.bumpaneer"
 	name="Bumpaneer's Repository"
-	version="1.0.3"
+	version="1.0.4"
 	provider-name="Bumpaneer">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -27,6 +27,12 @@
 			<datadir zip="true">https://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/jarvis</datadir>
 			<hashes>true</hashes>
 		</dir>
+		<dir minversion="17.0.0">
+			<info compressed="true">http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton/addons.xml</info>
+			<checksum>http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton</datadir>
+			<hashes>true</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bumpaneers's Add-ons for XBMC</summary>
@@ -39,12 +45,13 @@
 
 <addon
 	id="skin.unity"
-	version="0.4.91"
+	version="0.5.1"
 	name="Unity"
 	provider-name="Eddage, Bumpaneer">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
-		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skinshortcuts" version="1.0.8"/>
+		<import addon="script.skin.helper.service" version="1.0.60"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"

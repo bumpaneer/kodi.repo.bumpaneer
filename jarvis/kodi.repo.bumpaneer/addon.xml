@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="kodi.repo.bumpaneer"
 	name="Bumpaneer's Repository"
-	version="1.0.3"
+	version="1.0.4"
 	provider-name="Bumpaneer">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -24,6 +24,12 @@
 			<info compressed="true">http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/jarvis/addons.xml</info>
 			<checksum>http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/jarvis/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/jarvis</datadir>
+			<hashes>true</hashes>
+		</dir>
+		<dir minversion="17.0.0">
+			<info compressed="true">http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton/addons.xml</info>
+			<checksum>http://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/bumpaneer/kodi.repo.bumpaneer/raw/master/krypton</datadir>
 			<hashes>true</hashes>
 		</dir>
 	</extension>
