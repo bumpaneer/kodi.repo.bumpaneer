@@ -72,7 +72,7 @@ if __name__ == '__main__':
 				shutil.copy2('krypton\\working\\repo\\' + assetdir + '\\' + assetfile, 'krypton\\' + addonid + '\\' + assetdir)
 		if(os.path.exists('krypton\\working\\repo\\addon.xml')):
 			shutil.copy2('krypton\\working\\repo\\addon.xml', 'krypton\\' + addonid)
-		theproc = subprocess.Popen(["TexturePacker.exe", "-dupecheck -input krypton\\working\\repo\\media\\ -output krypton\\working\\Textures.xbt"])
+		theproc = subprocess.Popen(["krypton\\TexturePacker.exe", "-dupecheck -input krypton\\working\\repo\\media\\ -output krypton\\working\\Textures.xbt"])
 		theproc.communicate()
 		shutil.rmtree('krypton\\working\\repo\\media', onerror=del_rw)
 		os.mkdir('krypton\\working\\repo\\media')
