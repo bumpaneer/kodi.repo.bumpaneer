@@ -44,7 +44,7 @@
 
 <addon
 	id="skin.unity"
-	version="0.6.0"
+	version="0.6.1"
 	name="Unity"
 	provider-name="Eddage, Bumpaneer">
 	<requires>
